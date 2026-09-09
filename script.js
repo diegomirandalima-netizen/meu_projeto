@@ -5,6 +5,7 @@ const videos = [
         title: "Como baixar IPTV SMARTER na tv TCL samsung smart",            // Titulo principal
         meta: "13 visualizações • há 2 semanas",                             // Detalhes do vídeo
         url: "https://www.youtube.com/watch?v=NuRsgRkWhoY"    // <--- INSIRA O LINK DO YOUTUBE AQUI
+        imagem: "Capturar11.png"
     },
     {
         tag: "IBO PLAYER IOS",
@@ -95,5 +96,5 @@ function renderVideos() {
     });
 }
 
-// Dispara a função 'renderVideos' assim que a página é totalmente carregada
+// Dispara a função 'renderVideos' assim que a página e totalmente carregada
 document.addEventListener('DOMContentLoaded', renderVideos);
