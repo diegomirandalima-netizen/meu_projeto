@@ -4,37 +4,37 @@ const videos = [
         tag: "IPTV SMARTER",                                                  // Texto exibido no centro da capa
         title: "Como baixar IPTV SMARTER na tv TCL samsung smart",            // Título principal
         meta: "13 visualizações • há 2 semanas",                             // Detalhes do vídeo
-        url: "COLOQUE_AQUI_O_LINK_DO_VIDEO_1"                                // <--- INSIRA O LINK DO YOUTUBE AQUI (Substitua o texto entre aspas)
+        url: "https://www.youtube.com/watch?v=NuRsgRkWhoY"                                // <--- INSIRA O LINK DO YOUTUBE AQUI (Substitua o texto entre aspas)
     },
     {
         tag: "IBO PLAYER IOS",
         title: "Como baixar IBO PLAYER no IPHONE.",
         meta: "10 visualizações • há 2 semanas",
-        url: "COLOQUE_AQUI_O_LINK_DO_VIDEO_2"                                // <--- INSIRA O LINK DO YOUTUBE AQUI
+        url: "https://www.youtube.com/watch?v=rT1azuXHVME"                                // <--- INSIRA O LINK DO YOUTUBE AQUI
     },
     {
         tag: "SMARTERS LITE",
         title: "Como baixar IPTV Smarters Player Lite no IPHONE.",
         meta: "34 visualizações • há 3 semanas",
-        url: "COLOQUE_AQUI_O_LINK_DO_VIDEO_3"                                // <--- INSIRA O LINK DO YOUTUBE AQUI
+        url: "https://www.youtube.com/watch?v=PpPgp-4LWwM"                                // <--- INSIRA O LINK DO YOUTUBE AQUI
     },
     {
         tag: "XCIPTV PLAYER",
         title: "Como Resolver Erro de Login XCIPTV PLAYER",
         meta: "27 visualizações • há 3 semanas",
-        url: "COLOQUE_AQUI_O_LINK_DO_VIDEO_4"                                // <--- INSIRA O LINK DO YOUTUBE AQUI
+        url: "https://www.youtube.com/watch?v=dsKKlMWvQ1k"                                // <--- INSIRA O LINK DO YOUTUBE AQUI
     },
     {
         tag: "XC PLAYER TOP 2026",
         title: "XCIPTV app Top 2026! Faça um teste Grátis! Disponível em tvs Android e Smart TV, LG, Roku",
         meta: "18 visualizações • há 3 semanas",
-        url: "COLOQUE_AQUI_O_LINK_DO_VIDEO_5"                                // <--- INSIRA O LINK DO YOUTUBE AQUI
+        url: "https://www.youtube.com/watch?v=l7S6AlLpx3Q"                                // <--- INSIRA O LINK DO YOUTUBE AQUI
     },
     {
         tag: "APPS TV SAMSUNG",
         title: "COMO BAIXAR APLICATIVOS NA TV SAMSUNG",
         meta: "13 visualizações • há 3 semanas",
-        url: "COLOQUE_AQUI_O_LINK_DO_VIDEO_6"                                // <--- INSIRA O LINK DO YOUTUBE AQUI
+        url: "https://www.youtube.com/watch?v=4mqhXviPW40"                                // <--- INSIRA O LINK DO YOUTUBE AQUI
     },
     {
         tag: "DOWNLOADER FIRE STICK",
