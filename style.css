@@ -1,4 +1,4 @@
-/* Zera margens, espaçamentos padrão e define a fonte Poppins para todos os elementos */
+/* Zera margens, espacamentos padrao e define a fonte Poppins para todos os elementos */
 * {
     margin: 0;
     padding: 0;
@@ -6,25 +6,25 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Estilo do fundo da página e organização do corpo principal */
+/* Estilo do fundo da pagina e organizacao do corpo principal */
 body {
     background-color: #0d0d11; /* Fundo escuro em tom cinza fechado */
     color: #ffffff;            /* Cor do texto geral em branco */
-    min-height: 100vh;         /* Ocupa no mínimo 100% da altura da tela */
+    min-height: 100vh;         /* Ocupa no minimo 100% da altura da tela */
     display: flex;
-    flex-direction: column;    /* Organiza o conteúdo em coluna (header, main, footer) */
+    flex-direction: column;    /* Organiza o conteudo em coluna (header, main, footer) */
 }
 
-/* Estilização do topo/cabeçalho */
+/* Estilizacao do topo/cabecalho */
 header {
     background: linear-gradient(135deg, #181824, #0d0d11); /* Gradiente escuro elegante */
-    padding: 2.5rem 5%;       /* Espaçamento interno (topo/baixo e laterais) */
+    padding: 2.5rem 5%;       /* Espacamento interno (topo/baixo e laterais) */
     text-align: center;       /* Centraliza o texto */
     border-bottom: 2px solid #e50914; /* Linha vermelha estilo streaming na borda inferior */
     box-shadow: 0 4px 20px rgba(229, 9, 20, 0.2); /* Sombra avermelhada suave */
 }
 
-/* Estilo do título principal no cabeçalho */
+/* Estilo do titulo principal no cabecalho */
 header h1 {
     font-size: 2.8rem;
     font-weight: 700;
@@ -32,18 +32,18 @@ header h1 {
     letter-spacing: 1px;
 }
 
-/* Estilo do subtítulo do cabeçalho */
+/* Estilo do subtitulo do cabecalho */
 header p {
     color: #a0a0ab;           /* Cor cinza claro */
     font-size: 1.1rem;
     margin-top: 0.5rem;
 }
 
-/* Áreas internas do conteúdo principal */
+/* areas internas do conteudo principal */
 main {
-    flex: 1;                  /* Faz o conteúdo principal expandir para empurrar o rodapé */
+    flex: 1;                  /* Faz o conteudo principal expandir para empurrar o rodapé */
     padding: 3rem 5%;
-    max-width: 1400px;        /* Largura máxima do conteúdo no computador */
+    max-width: 1400px;        /* Largura maxima do conteudo no computador */
     margin: 0 auto;           /* Centraliza o bloco na tela */
     width: 100%;
 }
@@ -52,14 +52,14 @@ main {
 .video-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Grade responsiva */
-    gap: 2rem;                /* Espaço entre um card e outro */
+    gap: 2rem;                /* Espaco entre um card e outro */
 }
 
-/* Estilo do Card Individual de cada vídeo */
+/* Estilo do Card Individual de cada video */
 .video-card {
     background-color: #16161e;
     border-radius: 12px;       /* Bordas arredondadas */
-    overflow: hidden;         /* Impede que o conteúdo ultrapasse as bordas */
+    overflow: hidden;         /* Impede que o conteudo ultrapasse as bordas */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito suave de movimento */
     border: 1px solid #262636;
     display: flex;
@@ -73,18 +73,18 @@ main {
     border-color: #e50914;    /* Destaque vermelho na borda */
 }
 
-/* Área que representa a Capa do Vídeo (Proporção 16:9) */
+/* area que representa a Capa do Video (Proporcao 16:9) */
 .thumb-box {
     display: block;
     position: relative;
     width: 100%;
-    padding-top: 56.25%;      /* Mantém a proporção padrão de vídeo (16:9) */
+    padding-top: 56.25%;      /* Mantém a proporcao padrao de video (16:9) */
     background: linear-gradient(135deg, #1a1a2e, #16213e); /* Fundo com tom azulado/escuro */
     overflow: hidden;
     text-decoration: none;
 }
 
-/* Conteúdo centralizado dentro da capa */
+/* Conteudo centralizado dentro da capa */
 .thumb-content {
     position: absolute;
     top: 0;
@@ -109,7 +109,7 @@ main {
     margin-bottom: 0.5rem;
 }
 
-/* Botão redondo com ícone de Play sobre a capa */
+/* Botao redondo com icone de Play sobre a capa */
 .play-icon {
     background-color: rgba(229, 9, 20, 0.9);
     width: 45px;
@@ -121,7 +121,7 @@ main {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Cria o triângulo do ícone de Play usando CSS puro */
+/* Cria o triângulo do icone de Play usando CSS puro */
 .play-icon::after {
     content: '';
     display: block;
@@ -133,13 +133,13 @@ main {
     margin-left: 2px;
 }
 
-/* Aumenta o botão de play quando passa o mouse por cima */
+/* Aumenta o botao de play quando passa o mouse por cima */
 .video-card:hover .play-icon {
     transform: scale(1.15);
     background-color: #ff0000;
 }
 
-/* Bloco de informações de texto abaixo da capa */
+/* Bloco de informacões de texto abaixo da capa */
 .video-info {
     padding: 1.2rem;
     display: flex;
@@ -147,7 +147,7 @@ main {
     flex: 1;
 }
 
-/* Estilo do título do vídeo */
+/* Estilo do titulo do video */
 .video-title {
     font-size: 1rem;
     font-weight: 600;
@@ -158,19 +158,19 @@ main {
 }
 
 .video-title:hover {
-    color: #e50914; /* Muda a cor do título ao passar o mouse */
+    color: #e50914; /* Muda a cor do titulo ao passar o mouse */
 }
 
-/* Estilo das métricas (visualizações / data) */
+/* Estilo das métricas (visualizacões / data) */
 .video-meta {
     font-size: 0.8rem;
     color: #8a8a9e;
     margin-bottom: 1.2rem;
 }
 
-/* Botão "Assistir no YouTube" */
+/* Botao "Assistir no YouTube" */
 .btn-watch {
-    margin-top: auto;         /* Empurra o botão sempre para a base do card */
+    margin-top: auto;         /* Empurra o botao sempre para a base do card */
     display: inline-block;
     text-align: center;
     background-color: #e50914;
