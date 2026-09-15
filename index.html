@@ -1,37 +1,30 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DhigoMoviesTV - Galeria Oficial</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
+<!DOCTYPE html>                                                     <!-- Define o tipo de documento como HTML5 para o navegador -->
+<html lang="pt-BR">                                                 <!-- Inicio do documento HTML e define o idioma principal -->
+<head>                                                              <!-- Abertura do cabecalho de configuracoes da pagina -->
+    <meta charset="UTF-8">                                          <!-- Define a codificacao de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a largura da pagina para telas de celulares -->
+    <title>DhigoMoviesTV - Galeria Oficial</title>                  <!-- Define o titulo que aparece na aba do navegador -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"> <!-- Importa a fonte Poppins do Google -->
+    <link rel="stylesheet" href="style.css">                        <!-- Vincula o arquivo de estilos CSS externo -->
+</head>                                                             <!-- Fechamento do cabecalho de configuracoes -->
  
-<body>
+<body>                                                              <!-- Abertura do corpo da pagina onde fica o conteudo visivel -->
 
-     d<!-- Cabecalho principal da pagina -->
-    <header>
-        <img src="ei_1757385666640-removebg-preview.png" alt="minha logo" width="300" height="200">
-        <h1>DhigoMoviesTV</h1>
-        <!-- Subtitulo descritivo -->
-        <p>Confira os tutoriais e vídeos oficiais do canal</p>
-        <a href="https://www.youtube.com/channel/UCi-d2frFs4v1X1qkOrPVQaw" target="_blank" class="link-canal">Acesse nosso canal oficial no YouTube</a>
+    <header>                                                        <!-- Abertura do bloco de topo do site -->
+        <img src="ei_1757385666640-removebg-preview.png" alt="minha logo" width="300" height="200"> <!-- Exibe o logotipo com tamanho fixo -->
+        <h1>DhigoMoviesTV</h1>                                      <!-- Titulo principal em destaque no topo -->
+        <p>Confira os tutoriais e vídeos oficiais do canal</p>      <!-- Paragrafo com um subtitulo descritivo -->
+        <a href="https://www.youtube.com/channel/UCi-d2frFs4v1X1qkOrPVQaw" target="_blank" class="link-canal">Acesse nosso canal oficial no YouTube</a> <!-- Link para abrir o canal em nova aba -->
+    </header>                                                       <!-- Fechamento do bloco de topo do site -->
 
-    </header>
+    <main>                                                          <!-- Abertura da secao de conteudo principal -->
+        <div class="video-grid" id="videoGrid"></div>               <!-- Container vazio que sera preenchido por listas via JavaScript -->
+    </main>                                                         <!-- Fechamento da secao de conteudo principal -->
 
-    <!-- Conteudo principal onde os cards serao renderizados -->
-    <main>
-        <!-- Container vazio onde o JavaScript vai inserir automaticamente a grade de vídeos -->
-        <div class="video-grid" id="videoGrid"></div>
-    </main>
+    <footer>                                                        <!-- Abertura do rodape do site -->
+        <p>&copy; DhigoMoviesTV - Canal Oficial</p>                 <!-- Paragrafo com informacoes de direitos autorais -->
+    </footer>                                                       <!-- Fechamento do rodape do site -->
 
-    <!-- Rodapé da página -->
-    <footer>
-        <p>&copy; DhigoMoviesTV - Canal Oficial</p>
-    </footer>
-
-    <!-- Vincula o arquivo JavaScript externo que contém a lógica e a lista de vídeos -->
-    <script src="script.js"></script>
-</body>
-</html>
+    <script src="script.js"></script>                               <!-- Vincula o arquivo JavaScript externo com a logica dos videos -->
+</body>                                                             <!-- Fechamento do corpo da pagina -->
+</html>                                                             <!-- Fim do documento HTML -->
